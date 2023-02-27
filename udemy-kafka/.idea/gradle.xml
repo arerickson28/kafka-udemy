@@ -25,6 +25,24 @@
           </set>
         </option>
       </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/kafka-basics/consumers" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/kafka-basics/consumers" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/kafka-basics/producers" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/kafka-basics/producers" />
+          </set>
+        </option>
+      </GradleProjectSettings>
     </option>
   </component>
 </project>

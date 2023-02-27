@@ -1,14 +1,15 @@
-import org.apache.kafka.clients.producer.KafkaProducer
-import org.apache.kafka.clients.producer.ProducerConfig
-import org.apache.kafka.clients.producer.ProducerRecord
-
-fun main(args: Array<String>) {
-    println("Hello World!")
-    val myProducer: ProducerDemo = ProducerDemo()
-    val myProducerCallback: ProducerDemoCallbacks = ProducerDemoCallbacks()
-    val myProducerKeys: ProducerDemoKeys = ProducerDemoKeys()
-//    myProducer.produce()
-//    myProducerCallback.produce()
-    myProducerKeys.produce()
-}
+//fun main(args: Array<String>) {
+//    println("Hello World!")
+//    val myProducer: ProducerDemo = ProducerDemo()
+//    val myProducerCallback: ProducerDemoCallbacks = ProducerDemoCallbacks()
+//    val myProducerKeys: ProducerDemoKeys = ProducerDemoKeys()
+////    myProducer.produce()
+////    myProducerCallback.produce()
+//    myProducerKeys.produce()
+////    val myConsumer: ConsumerDemo = ConsumerDemo()
+//    val myConsumerWithShutdown: ConsumerDemoWithShutdown = ConsumerDemoWithShutdown()
+////    val mySecondConsumerWithShutdown: ConsumerDemoWithShutdown = ConsumerDemoWithShutdown()
+//    myConsumerWithShutdown.consume()
+////    mySecondConsumerWithShutdown.consume()
+//}
 
